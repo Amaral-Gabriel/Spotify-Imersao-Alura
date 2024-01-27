@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 485px;
+}
+
+.sidebar_navigation {
+    padding: 10px 0 0 16px;
+    background-color: #121212;
+    border-radius: 8px;
+    
+}
+
+.sidebar nav ul {
+    
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul :hover{
+    color: white;
+    transition-duration: 0.3s;
+    
+
+}
+
+.sidebar nav ul li a .nome {
+    margin-left: 15px;
+}
+
+
+
